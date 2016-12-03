@@ -1,0 +1,49 @@
+<form action="/login" method="post">
+
+    <h1> Login System: </h1>
+    <div class="container-fluid">
+        <label>Username:<input type="text" name="username"/></label>
+    </div>
+    <div class="container-fluid">
+        <label>Password:<input type="password" name="password"/></label>
+    </div>
+    <div class="container-fluid">
+        <input type="submit" value="Log In" />
+    </div>
+
+    {{#if error}}
+    <div class="row" style="color:#8b0000;">
+        <span>{{message}}</span>
+    </div>
+    {{/if}}
+</form>
+
+
+<style>
+    input[type=submit] {
+        width: 10%;
+        
+    }
+    
+    input[type=submit]:hover {
+        background-color: #FFFFFF;
+    }
+    
+    div {
+        border-radius: 2px;
+        background-color: #FFFFFF;
+        padding: 5px;
+    }
+    
+    label {
+        border-radius: 2px;
+        background-color: #FFFFFF;
+        padding: 5px;
+    }
+    
+    form {
+        border-radius: 2px;
+        background-color: #7FFFD4;
+        padding: 5px;
+    }
+</style>
