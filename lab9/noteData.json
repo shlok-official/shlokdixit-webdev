@@ -1,0 +1,20 @@
+[
+    {
+        "noteTitle": "Lab9",
+        "dueDate": "2016-09-01",
+        "summary": "lab 9 is difficult",
+        "noteBody": "hello how are you "
+    },
+    {
+        "noteTitle": "hello how are you ",
+        "dueDate": "2016-09-01",
+        "summary": "hey",
+        "noteBody": " whats up"
+    },
+    {
+        "noteTitle": "Shlok Dixit",
+        "dueDate": "2016-09-01",
+        "summary": "lab 10 is super tough",
+        "noteBody": "hello sir, shlok here "
+    }
+]
